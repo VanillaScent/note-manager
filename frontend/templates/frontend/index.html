@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      {% load static %}
+<!-- Latest compiled and minified bootstrap CSS -->
+      <link rel="stylesheet" href="{% static "frontend/css/bootstrap.css" %}">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      
+      <title>Django - React</title>
+    </head>
+    <body>
+      <section class="section">
+        <div class="container">
+              <div id="app" class="columns"><!-- React --></div>
+        </div>
+      </section>
+    </body>
+    {% load static %}
+    <script src="{% static "frontend/js/jquery-3.4.1.js" %}"></script>
+    <script src="{% static "frontend/js/popper.js" %}"></script>
+    <script src="{% static "frontend/js/bootstrap.js" %}"></script>
+
+    <script src="{% static "frontend/main.js" %}"></script>
+    </html>
